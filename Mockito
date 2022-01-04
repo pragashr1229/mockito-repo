@@ -15,3 +15,15 @@ Dependencies for JUnit and Mockito are listed below
             <scope>test</scope>
         </dependency>
 	</dependencies>
+
+Stub - A stub is a class that comes with preprogrammed return values .
+Mock - 
+
+Drawbacks Of Stub:
+---------------------
+1. complex code - if we want to write a test to check the method to verify the zero results then we need to write similar testRetrieveTasksRelatedToSpring test methods and we need to change in stub class also
+2. Test cases couple tightly due to the hard-coding of data.
+		if we add a method in interface, then immediatly stub class will fail
+		
+
+ 
